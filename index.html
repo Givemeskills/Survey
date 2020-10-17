@@ -51,6 +51,7 @@
       <br>
       <label for="habits" id="habits-label">How many of these healthy habits do you take part in?</label>
       <br>
+      <br>
       <label for="habit1" id="check-options">Regular exercise</label>
       <input type="checkbox" 
              id="checkbox"
@@ -69,7 +70,7 @@
       <br>
       <br>
       <label for="avg-day">Complete the sentence - on the average day I feel:</label>
-      <br>
+      <div id=radio>
       <input type="radio"
              id="avg-day"
              name="avg-day"
@@ -85,15 +86,13 @@
              name="avg-day"
              value="happy">
        Happy
-      </container>
-       <br>
+       </div>
        <br>
        <label for="comments">What was the last thing that made you happy?</label>
        <br>
        <textarea id="comments"
                  name="comments"
-                 placeholder="enter your comments here">
-       </textarea>
+                 placeholder="enter your comments here"></textarea>
        <br>
        <br>
        <button type="submit"
