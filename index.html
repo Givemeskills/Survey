@@ -2,7 +2,7 @@
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+  <body style="background-color: #B9D6F2; color: black";>
   <header class="header">
       <h1 id="title" class="text-center"> The<strong> Happiness </strong>Survey</h1>
       <p id="description" class="description-text-center"> How happy are you?</p>
@@ -51,17 +51,17 @@
       <br>
       <label for="habits" id="habits-label">How many of these healthy habits do you take part in?</label>
       <br>
-      <label for="habit1">Regular exercise</label>
+      <label for="habit1" id="check-options">Regular exercise</label>
       <input type="checkbox" 
              id="checkbox"
              name="checkbox"
              value="Regular exercise">
-       <label for="habit2">Meditation</label>
+       <label for="habit2" id="check-options">Meditation</label>
        <input type="checkbox" 
              id="checkbox"
              name="checkbox"
              value="Meditation">
-       <label for="habit3">Eating healthy</label>
+       <label for="habit3" id="check-options">Eating healthy</label>
        <input type="checkbox" 
              id="checkbox"
              name="checkbox"
@@ -85,6 +85,7 @@
              name="avg-day"
              value="happy">
        Happy
+      </container>
        <br>
        <br>
        <label for="comments">What was the last thing that made you happy?</label>
